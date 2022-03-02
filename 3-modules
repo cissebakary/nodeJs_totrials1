@@ -1,0 +1,29 @@
+// const amount = 12
+
+// if(amount > 12){
+//     console.log('small number')
+// }else{
+//     console.log('large number')
+// }
+
+// console.log(`hey it s my firt app`)
+
+// const john = 'john'
+// const petter = 'petter'
+
+// const sayHi = (name) => {
+//     console.log('Hi ' + name + ', how you\'re doing')
+// }
+
+
+const names = require('./4-names')
+const sayHi = require('./5-utils')
+const firstPerson = require('./6-alternative-flavor')
+const items = require('./6-alternative-flavor')
+
+sayHi(items[1])
+// sayHi(names.petter)
+// sayHi('Suzan')
+// console.log(names)
+
+// console.log(module)
